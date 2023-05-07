@@ -1,0 +1,135 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/chalamT_TECH/BRN29practice
+T_opt
+!s110 1674815728
+VFD`W@U9N@I2XOYCAUijC<2
+Z1 04 3 4 work top fast 0
+=1-4cd98f609cbb-63d3a8f0-64be7-3d3e0
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2;69
+T_opt1
+!s110 1673858958
+V0Qa=lMGDXM4oV@j64>b9<3
+04 11 4 work de2_sv_unit fast 0
+04 4 4 work test fast 0
+=1-4cd98f609cbb-63c50f8e-2a448-385bc
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1674120295
+V6UG<ZZTR`F[OS>Ij0lkH60
+04 13 4 work assig_sv_unit fast 0
+R1
+=1-4cd98f609cbb-63c90c67-4ab24-182e7
+R2
+R3
+n@_opt2
+R4
+R0
+Xassig_sv_unit
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+VXM7m7QmJ564DH87eP>HAO3
+r1
+!s85 0
+!i10b 1
+!s100 FGUPbG34z_l2>?Sz_:<MK3
+IXM7m7QmJ564DH87eP>HAO3
+!i103 1
+S1
+R0
+w1674120293
+8assig.sv
+Fassig.sv
+L0 1
+Z6 OL;L;2019.2;69
+31
+!s108 1674120294.000000
+!s107 assig.sv|
+!s90 assig.sv|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+Xde2_sv_unit
+R5
+Vh0<NSoSeX?dlnUlV[BX_82
+r1
+!s85 0
+!i10b 1
+!s100 k=im:2aaDH`k2Go7YhO9:1
+Ih0<NSoSeX?dlnUlV[BX_82
+!i103 1
+S1
+R0
+Z8 w1673862467
+Z9 8de2.sv
+Z10 Fde2.sv
+L0 1
+R6
+31
+Z11 !s108 1673862470.000000
+Z12 !s107 de2.sv|
+Z13 !s90 de2.sv|
+!i113 0
+R7
+R3
+vtest
+R5
+DXx4 work 11 de2_sv_unit 0 22 h0<NSoSeX?dlnUlV[BX_82
+Z14 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 <Zcn<dh8dC;dWD?AWR?SS1
+IAdnc9m5l_jeVBgb:?eofT2
+!s105 de2_sv_unit
+S1
+R0
+R8
+R9
+R10
+L0 27
+R6
+31
+R11
+R12
+R13
+!i113 0
+R7
+R3
+vtop
+R5
+!s110 1674815727
+!i10b 1
+!s100 T86fWFbhOZ1n@h5YbMdbE1
+!s11b V1HBP^Wm:48:^dz4j@>o>3
+IcTZ03_kP?Fk;GEWk`7f8D0
+R14
+S1
+R0
+w1674815724
+8strcut.sv
+Fstrcut.sv
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1674815727.000000
+!s107 strcut.sv|
+!s90 strcut.sv|
+!i113 0
+R7
+R3

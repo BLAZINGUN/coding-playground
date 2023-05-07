@@ -1,0 +1,43 @@
+m255
+K4
+z2
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/chalamT_TECH/BRN29practice
+T_opt
+!s110 1672741018
+V6?IZOoc9]zm_^lKXSAKJk2
+04 3 4 work top fast 0
+=1-4cd98f609cbb-63b4009a-15393-311e0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+R0
+vtop
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1672741016
+!i10b 1
+!s100 z;3j>`dFY`5Lcek@MK]>72
+!s11b MYJzgO3FNY2<UR:zMP8[h3
+IDZdU61kE=1Ho0LB>N1B@c1
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1672741015
+8enums.sv
+Fenums.sv
+L0 1
+OL;L;2019.2;69
+r1
+!s85 0
+31
+!s108 1672741016.000000
+!s107 enums.sv|
+!s90 enums.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

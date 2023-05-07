@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/chalamT_TECH/BRN28practice
+T_opt
+!s110 1673501311
+VJ@DFZhUlZVjVf;=2PA^1>2
+Z1 04 3 4 work top fast 0
+=1-4cd98f609cbb-63bf9a7e-f315b-19b44
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.2;69
+R0
+T_opt1
+!s110 1672995245
+VP97@4]Z@;X3;^6;nfeOhi2
+R1
+=1-4cd98f609cbb-63b7e1ad-10f4a-991d
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+vdff
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1673239425
+!i10b 1
+!s100 X=[Lfg2J]P<Hi63RNJeYl0
+!s11b 3[KSU=eJ;^`UoV^<:8;@K0
+Ijc1>OTTFf^0@GekFMAdIm1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z7 w1673239151
+Z8 8/home/chalamT_TECH/BRN28practice/inter.sv
+Z9 F/home/chalamT_TECH/BRN28practice/inter.sv
+L0 73
+Z10 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z11 !s108 1673239425.000000
+Z12 !s107 /home/chalamT_TECH/BRN28practice/inter.sv|
+Z13 !s90 -reportprogress|300|-work|work|/home/chalamT_TECH/BRN28practice/inter.sv|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Ydff_if
+R4
+R5
+!i10b 1
+!s100 bddXj>cZReblCH5[:4Kf:3
+!s11b IW]QjA@Mm4PZV?z6S3]IC3
+I5VdYcnNQETUGXBWW6h@YF2
+R6
+S1
+R0
+R7
+R8
+R9
+L0 4
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtestcase
+R4
+R5
+!i10b 1
+!s100 0BVM1QZYIaTlkkd7?O5fz1
+!s11b LAo?<OB48fQ8H7B?KV@BE1
+I72^foTiTCh=C;Z>`j4=UV2
+R6
+S1
+R0
+R7
+R8
+R9
+L0 93
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtop
+R4
+!s110 1673501425
+!i10b 1
+!s100 0d:AnOQPCTEOSeMa;MWPi2
+!s11b DeXWAfF`HZin5h1KeoWaO2
+IdaSaV1gfge<b_bDc73Jb10
+R6
+S1
+R0
+w1671425812
+8passbyah.sv
+Fpassbyah.sv
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1673501425.000000
+!s107 passbyah.sv|
+!s90 passbyah.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
