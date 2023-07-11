@@ -126,5 +126,44 @@ sub get_info
 
 sub search_info
 {
-    
+    open (ADDFILE , "add_file.txt");
+
+    print "Type the name of the person \n";
+    print "Use lower case letters only \n";
+
+    $n =<STDIN>;
+    chomp($n);
+
+    $n = uc $n;
+
+    $match = 0;
+
+    $text = <ADDFILE>;
+
+    while($text)
+    {
+        if ($text =~ /n/)
+        {
+            print " \n ******************* \n";
+            for ($q=0; $q<=10; $q++ )
+            {
+                print "$text \n";
+                $text = <ADDFILE>;
+            }
+            print "\n********************* \n";
+            $match++;
+        }
+
+        else 
+        {
+            $text = <ADDFILE>;
+        }
+    }
+
+if($match != 0)
+{ print " \n \U Number of matching addresses found for $n --- $match \n"; }
+else
+{print " \n \U no matching addresses found - please try again - Thanks \n";}
+
+close(ADDFILE);
 }
