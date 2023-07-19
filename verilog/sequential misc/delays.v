@@ -4,15 +4,15 @@ input [2:0]a,b,c;
 input clk,reset;
 output [2:0]d,e,f;
 
-assign #10d = a;
-assign #20e = #5b;
-assign #30f = #15c;
+assign #10 d = a;
+assign #20 e = #5 b;
+assign #30 f = #15 c;
 
 always@(posedge clk)
     begin
-         #10d <= a;
-         #20e <= #5b;
-         #30f <= #15c;
+         #10 d <= a;
+         #20 e <= #5 b;
+         #30 f <= #15 c;
     end
 
 always@(posedge clk)
@@ -26,7 +26,7 @@ endmodule
 
 module testing_tb;
 
-reg a,b,c,clk;
+reg a,b,c,clk,reset;
 wire d,e,f;
 
 
@@ -46,10 +46,12 @@ initial
 
 
 task reset_task;
-    @(posedge clk)
-    reset = 1'b1;
-    @(posedge clk)
-    reset = 1'b0;
+    begin
+        @(posedge clk);
+        reset = 1'b1;
+        @(posedge clk);
+        reset = 1'b0;
+    end
 endtask
 
 
