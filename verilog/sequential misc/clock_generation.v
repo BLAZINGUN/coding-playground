@@ -8,10 +8,10 @@ input in;
 output out;
 reg clock = 0;
 
-parameter freq = 25*1e6;
+parameter freq = 239*1e5;
 parameter time_period = (1/freq)*1e9;
-parameter on_time = (time_period/4);
-parameter off_time = ((3*time_period)/4);
+parameter on_time = (time_period/2);
+parameter off_time = (time_period/2);
 
 
 always

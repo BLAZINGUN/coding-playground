@@ -9,7 +9,7 @@ logic rd_enb;
 logic rd_reg;
 logic full;
 logic empty;
-logic overflow;
+logic over_flow;
 logic underflow;
 logic threshold;
 
@@ -24,7 +24,7 @@ output resetn;
 
 input full;
 input empty;
-input overflow;
+input over_flow;
 input underflow;
 input threshold;
 
@@ -42,7 +42,7 @@ input resetn;
 
 input full;
 input empty;
-input overflow;
+input over_flow;
 input underflow;
 input threshold;
 
@@ -58,7 +58,7 @@ output rd_reg;
 
 input full;
 input empty;
-input overflow;
+input over_flow;
 input underflow;
 input threshold;
 
@@ -75,7 +75,7 @@ input [7:0]dataout;
 
 input full;
 input empty;
-input overflow;
+input over_flow;
 input underflow;
 input threshold;
 
