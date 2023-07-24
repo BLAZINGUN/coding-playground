@@ -12,5 +12,5 @@ package fifo_pkg;
     `include fifo_reference_model.sv
     `include fifo_sb.sv
     `include fifo_env.sv
-
+    
 endpackage

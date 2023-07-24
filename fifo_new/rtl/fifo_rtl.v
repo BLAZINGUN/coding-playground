@@ -1,4 +1,4 @@
-module fifo_top(input clk, rst_n,
+module fifo_rtl(input clk, rst_n,
                                 input wr_enb, rd_enb, wr_reg, rd_reg,
                                 input [7:0] data_in,
                                 output full, empty, threshold,

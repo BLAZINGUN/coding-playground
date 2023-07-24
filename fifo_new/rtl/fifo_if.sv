@@ -1,4 +1,4 @@
-interface fifo_if(input bit clock);
+interface fifo_if  (input bit clock);
 
 
 logic [7:0] datain,dataout;
