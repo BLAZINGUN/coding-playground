@@ -1,4 +1,4 @@
-class fifo_write_xtn ;
+class wr_xtn ;
 
 //declaring varibles as rand
 rand bit [7:0] datain;
@@ -53,7 +53,7 @@ function void post_randomize();
         no_of_write_reg_xtns++;
     else if(this.wr_enb == 1)
         no_of_write_xtns++;
-    
+
     no_of_xtns++;
 
     ifdef NEED_GEN_PKT
