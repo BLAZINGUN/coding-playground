@@ -1,0 +1,30 @@
+module top;
+class example;
+    rand bit[4:0] a[10];
+    bit[4:0] q[$];
+endclass
+
+example e1;
+
+initial
+    begin
+        e1 = new();
+        assert(e1.randomize);
+        $display("array  :\t %p",e1.a);
+
+        //without using built-in methods
+        for(int i = 0; i <$size(e1.a) -1 ; i++)
+            begin
+                if(e1.q.size == 1)
+                    break;
+
+                else if(e1.a[i] > 15)
+                    e1.q.push_back(e1.a[i]);
+            end
+        $display("result :\t %p ",e1.q);
+    end
+endmodule
+
+
+array  :	 '{3, 0, 3, 25, 28, 13, 16, 16, 13, 23}
+result :	 '{25} 
